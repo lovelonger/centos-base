@@ -3,8 +3,8 @@
 FROM docker pull daocloud.io/lovelonger/centos:master-init
 MAINTAINER tanmingxiao <tanmingxiao@gmail.com>
 
-ADD modules/centos6 tmp/_dt/
-RUN sh /tmp/_dt/install.sh
+RUN git clone https://github.com/lovelonger/centos-base.git ; mv centos-base/* tmp/_dt/
+RUN sh /tmp/_dt/modules/install.sh
 
 VOLUME /opt/data-vol
 
