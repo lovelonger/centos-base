@@ -23,6 +23,7 @@ yum -y update
 yum -y --enablerepo=rpmforge-extras install samba bash-completion autojump python-pip htop ncdu dstat iotop iftop nload nethogs
 
 # Supervisor
+pip install --upgrade pip
 pip install supervisor
 mkdir -p /var/log/supervisor
 
