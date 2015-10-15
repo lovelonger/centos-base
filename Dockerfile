@@ -1,7 +1,7 @@
 # Mycat Openep Dockerfile
 
 #FROM daocloud.io/lovelonger/centos:master-init
-FROM index.tenxcloud.com/kirito/centos6
+FROM index.tenxcloud.com/kirito/centos-6
 MAINTAINER tanmingxiao <tanmingxiao@gmail.com>
 
 RUN git clone https://github.com/lovelonger/centos-base.git ; mkdir -p tmp/_dt/ ; mv centos-base/* tmp/_dt/
