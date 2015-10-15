@@ -1,3 +1,3 @@
 #!/bin/sh
 
-docker build --rm=true -t flexmall .
+docker build --rm=true -t base-image .
