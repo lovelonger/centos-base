@@ -56,9 +56,9 @@ bridge方式启动(docker私有网络, 默认)
 *注2:如果是nat方式启动,请先用docker ps查看对应映射端口*
 
 #服务管理
--通过supervisor http管理服务: http://hostip:9001/
--supervisorctl help 查看帮助
--supervisorctl status 查看服务状态
--supervisorctl start samba 启动服务
--supervisorctl stop samba 停止服务
--supervisorctl restart samba 重启服务
+- 通过supervisor http管理服务: http://hostip:9001/
+- supervisorctl help 查看帮助
+- supervisorctl status 查看服务状态
+- supervisorctl start samba 启动服务
+- supervisorctl stop samba 停止服务
+- supervisorctl restart samba 重启服务
