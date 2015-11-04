@@ -3,7 +3,7 @@
 cd `dirname $0`
 
 # Install modules
-for m in os scm zsh jdk7 maven nginx zookeeper; do
+for m in os scm zsh jdk7 maven nginx jboss zookeeper; do
     if [ -d ${m} ]; then
         echo -e "\n---- Install module ${m} ----"
         cd ${m}
