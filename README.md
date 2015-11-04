@@ -46,7 +46,9 @@ bridge方式启动(docker私有网络, 默认)
 | maven        |            | java构建工具                           |
 | nginx        | 80         | web服务器                              |
 | zookeeper    | 2181       | 集群工具                               |
-| jboss        | 8080       | jbos                                   |
+| jboss        | 8081       | jboss                                  |
+| ofbiz        | 8080       | ofbiz首页                              |
+| ofbiz        | 8443       | ofbiz管理                              |
 
 
 #如何管理

@@ -9,7 +9,7 @@ RUN sh tmp/_dt/modules/install.sh
 
 VOLUME /opt/data-vol
 
-#      ssh   web supervisor zookeeper jboss
-EXPOSE 2222  80  9001       2181      8080
+#      ssh   web supervisor zookeeper jboss ofbiz1  ofbiz2
+EXPOSE 2222  80  9001       2181      8081  8080    8443
 
 CMD ["/usr/bin/supervisord"]
