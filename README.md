@@ -45,6 +45,8 @@ bridge方式启动(docker私有网络, 默认)
 | jdk7         |            |                                        |
 | maven        |            | java构建工具                           |
 | nginx        | 80         | web服务器                              |
+| zookeeper    | 2181       | 集群工具                               |
+| jboss        | 8080       | jbos                                   |
 
 
 #如何管理
