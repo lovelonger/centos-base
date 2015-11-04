@@ -6,7 +6,7 @@ prg=`pwd`
 
 [ -f "../cache/${pkg}" ] && pkg="../cache/${pkg}" || wget http://download.jboss.org/jbossas/7.1/${ver}/${pkg}
 
-mkdir -p ${dest}
+#mkdir -p ${dest}
 yum install unzip -y
 unzip -q ${pkg} -d ${dest}
 cd ${dest}
