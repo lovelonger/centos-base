@@ -23,8 +23,8 @@ yum -y update
 yum -y --enablerepo=rpmforge-extras install samba bash-completion autojump python-pip htop ncdu dstat iotop iftop nload nethogs
 
 # Supervisor
-pip install --upgrade pip
-pip install supervisor
+pip install -i http://pypi.douban.com/simple/ --upgrade pip
+pip install -i http://pypi.douban.com/simple/ supervisor
 mkdir -p /var/log/supervisor
 sed -i 's/meld3 >= 0.6.5/#meld3 >= 0.6.5/g' /usr/lib/python2.6/site-packages/supervisor-3.1.3-py2.6.egg-info/requires.txt
 
